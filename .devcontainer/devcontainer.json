@@ -6,8 +6,8 @@
   },
   "workspaceFolder": "/workspace",
   "mounts": [
-    "source=/Users/Levi Stovall/repositories/glowing-sniffle/output,target=/workspace/output,type=bind",
-    "source=/Users/Levi Stovall/repositories/glowing-sniffle/data,target=/workspace/data,type=bind"
+    "source=/c/Users/Levi Stovall/repositories/glowing-sniffle/output,target=/workspace/output,type=bind",
+    "source=/c/Users/Levi Stovall/repositories/glowing-sniffle/data,target=/workspace/data,type=bind"
   ],
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash"
