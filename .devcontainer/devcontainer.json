@@ -1,0 +1,15 @@
+{
+  "name": "Balance Plot Dev",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder}/output,target=/workspace/output,type=bind",
+    "source=${localWorkspaceFolder}/data,target=/workspace/data,type=bind"
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  }
+}
